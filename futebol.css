@@ -1,0 +1,161 @@
+#main {
+    padding-top: 20;
+}
+
+#historia {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+header .search input {
+    outline: none;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    font-size: 1.05rem;
+    padding: 10px 15px;
+    border: 1px solid #00000040;
+}
+
+
+#historia h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#historia p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#historia p:last-child {
+    margin-bottom: 0;
+}
+
+#historia img {
+    width: 300px;
+    height: 200px;
+    flex: 1
+}
+
+/* Estilos para a seção "quadra" */
+#quadra {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+
+#quadra h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#quadra ul {
+    list-style-type: none;
+}
+
+#quadra ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Estilos para a seção "bola" */
+#bola {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+#bola h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#bola ul {
+    list-style-type: none;
+}
+
+#bola ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#jogadores {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+#jogadores h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#jogadores ul {
+    list-style-type: none;
+}
+
+#jogadores ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#partida {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+#partida h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#partida ul {
+    list-style-type: none;
+}
+
+#partida ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+#curiosidades {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+#curiosidades h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#curiosidades ul {
+    list-style-type: none;
+}
+
+#curiosidades ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,120 @@
+header.logo {
+    width: 90px;
+}
+main {
+    gap: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+header.search input {
+    outline: none;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    font-size: 1.05rem;
+    padding: 10px 15px;
+    border: 1px solid #00000040;
+}
+
+section.historia {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+section.historia img {
+    width: 300px;
+    height: 200px;
+    flex: 1
+}
+
+section.quadra {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.quadra {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Estilos para a seção "bola" */
+section.bola {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+li.bola {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+section.jogadores {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+
+li.jogadores {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+section.partida {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+li.partida {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+section.curiosidades {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #eaeaea;
+}
+
+li.curiosidades {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+}

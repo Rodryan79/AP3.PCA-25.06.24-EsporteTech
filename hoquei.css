@@ -1,0 +1,31 @@
+main {
+    gap: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#historia {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#historia h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#historia p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#historia img {
+    width: 300px;
+    height: 200px;
+    flex: 1
+}

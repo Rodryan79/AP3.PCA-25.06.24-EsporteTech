@@ -1,0 +1,208 @@
+/* Configurações padrões */
+
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+:root {
+    --primary-color: #C0B283;
+    --secondary-color: #FEC7B4;
+}
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+a,
+button {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.8;
+}
+
+a:active,
+button:active {
+    opacity: 1;
+    filter: brightness(0.8);
+}
+
+/* ----------------------- */
+
+
+/* Navegação */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 40px;
+    box-shadow: 0 5px 20px #fec7b474;
+}
+
+header .logo {
+    width: 70px;
+}
+
+
+header .search {
+    display: flex;
+
+    width: 40%;
+}
+
+header .search input {
+    outline: none;
+
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    font-size: 1.05rem;
+    padding: 10px 15px;
+    border: 1px solid #00000040;
+}
+
+header .search button {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 20px 20px 0;
+    padding: 5px 15px;
+    padding-right: 20px;
+
+}
+
+header .search button img {
+    width: 20px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+    gap: 20px;
+}
+
+header nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #373737;
+    font-weight: bold;
+}
+
+header nav ul li a:not(.contactBtn)::after {
+    content: "";
+    position: absolute;
+    background-color: var(--primary-color);
+
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    transition: 0.3s;
+    box-shadow: 0 2px 5px 1px #ffffff;
+}
+
+header nav ul li a:not(.contactBtn):hover::after {
+    width: 100%;
+}
+
+header nav ul li .contactBtn {
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+
+    border-radius: 20px;
+    padding: 7px 20px;
+    box-shadow: 0 2px 5px #00000040;
+}
+
+header nav ul li .contactBtn span {
+    position: relative;
+    color: #000;
+    font-weight: bold;
+
+    font-size: 1rem;
+    margin-top: 5px;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+header nav ul li .contactBtn::after {
+    content: "";
+    background-color: red;
+    position: absolute;
+    background-color: var(--primary-color);
+
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+header nav ul li .contactBtn:hover::after {
+    top: 0;
+}
+
+header nav ul li .contactBtn:hover span {
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
